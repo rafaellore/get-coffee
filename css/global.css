@@ -27,3 +27,10 @@ img {
   max-width: 100%;
   display: block;
 }
+
+@media (max-width: 375px) {
+  body {
+    background-image: url("../assets/mobile.png");
+    background-size: auto;
+  }
+}
